@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@android:color/holo_orange_light"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="Thêm đồ ăn"
+        android:textAlignment="center"
+        android:textSize="25sp" />
+
+    <EditText
+        android:id="@+id/inputname"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:hint="Tên đồ ăn"
+        android:textAlignment="textStart"
+        android:textColor="@color/white"
+        tools:layout_marginLeft="20dp"></EditText>
+
+    <EditText
+        android:id="@+id/inputurl"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:hint="Link ảnh"
+        android:textAlignment="textStart"
+        android:textColor="@color/white"
+        tools:layout_marginLeft="20dp"></EditText>
+
+    <EditText
+        android:id="@+id/inputquantity"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:hint="Số lượng"
+        android:textAlignment="textStart"
+        android:textColor="@color/white"
+        tools:layout_marginLeft="20dp"></EditText>
+
+</LinearLayout>
